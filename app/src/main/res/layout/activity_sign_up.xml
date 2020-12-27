@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sign_up"
+    android:background="#2E2010"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+       <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/emailsign"
+            android:textSize="24sp"
+            android:text="wachirasteady@gmail.com"
+            android:textColor="@android:color/white"
+            android:inputType="textEmailAddress"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@android:color/white"
+            app:met_maxCharacters="32"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0724309023"
+            android:hint="Phone Number"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/phne"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:inputType="phone"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@android:color/white"
+            app:met_maxCharacters="10"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:text="stes"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/usernamesign"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:inputType="text"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@android:color/white"
+            app:met_maxCharacters="15"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="j67A3457"
+            android:hint="Card Number"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/card900"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:inputType="text"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@android:color/white"
+            app:met_maxCharacters="32"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Receipt"
+            android:text="R988766TA6677766"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/rceipt"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:inputType="text"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@android:color/white"
+            app:met_maxCharacters="10"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1234567"
+            android:hint="Password"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/passwordre"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:inputType="textPassword"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@android:color/white"
+            app:met_maxCharacters="10"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            />
+      <!--  <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/confpassword"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:inputType="textPassword"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@android:color/white"
+            app:met_maxCharacters="10"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            />-->
+
+
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/signint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Sign_in"
+        android:layout_margin="8dp"
+        fbutton:fButtonColor="@color/login"
+        fbutton:cornerRadius="4dp"
+        fbutton:shadowColor="@android:color/black"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        />
+        <TextView
+
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="67dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="have an account?? please login"
+            />
+        <info.hoang8f.widget.FButton
+
+            android:onClick="log"
+            android:id="@+id/logint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Login"
+            android:layout_margin="8dp"
+            fbutton:fButtonColor="@color/sign_in"
+            fbutton:cornerRadius="4dp"
+            fbutton:shadowColor="@android:color/black"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>

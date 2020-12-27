@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#2E2010</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="login">#39796b</color>
+    <color name="sign_in">#A9dd40</color>
+    <color name="fbutton_color_green_sea">#16a085</color>
+    <color name="fbutton_color_orange">#f39c12</color>
+    <color name="fbutton_color_carrot">#e67e22</color>
+    <color name="fbutton_color_pumpkin">#d35400</color>
+    <color name="fbutton_color_pomegranate">#c0392b</color>
+    <color name="warning">#FF0000</color>
+    <color name="waning">#048CF8</color>
+
+</resources>

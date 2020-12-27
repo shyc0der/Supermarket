@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="app_name">sign</string>
+    <string name="welcome_text">making shopping easier just one click </string>
+    <string name="signup_error_message">Please make sure you enter all your details!</string>
+    <string name="signup_error_title">Error!</string>
+    <string name="login_error_title">Error!</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Steady</string>
+    <string name="nav_header_subtitle">steswachira@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="description">life is hard but its harder when you are stupid or broke
+        and hardest when you are broke and foolish</string>
+    <string name="amount">10,000</string>
+    <string name="namepd">Product name</string>
+    <string name="adress">Enter your address or location</string>
+
+</resources>
